@@ -1,0 +1,130 @@
+@-webkit-keyframes abc {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes abc {
+  0% {
+    color: red;
+  }
+  33% {
+    color: green;
+  }
+  66% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.SW {
+  font-size: 3rem;
+  font-family: 'Ewert', cursive;
+  -webkit-animation-name: abc;
+          animation-name: abc;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.dropdown-item {
+  padding: 5px 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card-fst {
+  margin: 2% 0;
+  width: 250px;
+  height: 350px;
+  word-break: break-all;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10%;
+  -webkit-transition: .6s;
+  transition: .6s;
+  background-color: #E0E5EC;
+  -webkit-box-shadow: 9px 9px 16px #A3B1C6, -9px -9px 16px    #fff,inset 9px -9px 16px #A3B1C6;
+          box-shadow: 9px 9px 16px #A3B1C6, -9px -9px 16px    #fff,inset 9px -9px 16px #A3B1C6;
+}
+
+.card-fst:hover {
+  -webkit-box-shadow: -4px 4px 7px 1px rgba(0, 4, 253, 0.596);
+          box-shadow: -4px 4px 7px 1px rgba(0, 4, 253, 0.596);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 0%;
+}
+
+.card-fst .card-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+.card-fst .my-card-footer:hover {
+  -webkit-box-shadow: inset 2px 2px 4px 0px #A3B1C6, inset -2px -2px 8px 0px #fff,-2px -2px 8px 0px #fff ,4px 4px 4px 0px #A3B1C6;
+          box-shadow: inset 2px 2px 4px 0px #A3B1C6, inset -2px -2px 8px 0px #fff,-2px -2px 8px 0px #fff ,4px 4px 4px 0px #A3B1C6;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 25px;
+}
+
+.card-fst .my-card-footer a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card-fst:hover .my-card-footer {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.fa {
+  font-size: 3rem;
+}
+
+.fa:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=scethome.css.map */

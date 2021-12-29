@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes a {
+    0% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+.carousel-item {
+    img {
+        height: 90vh;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
+
+.carousel-inner {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+#banner {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    .btq {
+        align-self: center;
+    }
+    .txt {
+        color: rgb(225, 0, 255);
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        .contxt {
+            animation-name: a;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            text-shadow: 5px 5px 15px 5px aqua;
+        }
+    }
+}

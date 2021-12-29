@@ -1,0 +1,173 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.testimonials
+{
+  margin: 50px auto;
+  width: 70%;
+}
+.testimonials h1
+{
+  text-align: center;
+  font-weight: bold;
+  color: #ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.testimonials h1::after
+{
+  content: '';
+  background: #ff9800;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.testimonials .row
+{
+  margin-top:30px;
+}
+.col-md-4
+{
+  margin: 80px auto;
+  padding-left: 50%;
+  padding-right: 10%;
+}
+.profile
+{
+  padding: 180px 30px 30px ;
+  background-color:#273746  ;
+  box-shadow: 3px 3px 3px 3px pink;
+
+}
+.profile img
+{
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid white;
+}
+.user
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile h3
+{
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ff9800;
+}
+span
+{
+  font-size: 12px;
+  color: #333;
+}
+blockquote
+{
+  font-size: 16px;
+  line-height: 10px;
+  font-weight: bold;
+  color: #ff9800;
+}
+blockquote::before
+{
+
+  font-size: 50px;
+  position: relative;
+  color: #ff9800;
+
+}
+blockquote::after {
+  font-size: 100px;
+  position: relative;
+  color: #ff9800;
+}
+
+.hide{
+  text-align: center;
+  font-size: 25px;
+}
+.objective{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  background-color:gold;
+  width: 70%;
+  margin-left: 6%;
+  margin-right: 10%;
+  border-radius: 10px;
+  margin-top: 10%;
+  box-shadow:10px 10px 15px 5px rgb(255,0, 255);
+}
+
+.objecttext{
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  width: 50%;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  background-color:pink;
+  width: 70%;
+  margin-left: 25%;
+  margin-right: 10%;
+  margin-top: 10%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 5px rgb(0,255, 255);
+}
+.thbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  width: 90%;
+  margin-left: 6%;
+  margin-right: 10%;
+  margin-top: 10%;
+  
+}
+
+.thtext{
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  width: 50%;
+}
+.cards{
+  width: 27%;
+  height: 30%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-top: 5%;
+  background-color:orange;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px pink;
+} 
+
+.card-decks{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+/*------------------------------------------------------*/
+
+
+/*-------------Footer-----------------------*/
+
+a {
+    text-decoration: none;
+}

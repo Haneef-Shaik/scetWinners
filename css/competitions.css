@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes a {
+  0% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+@keyframes a {
+  0% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+.carousel-item img {
+  height: 90vh;
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+.carousel-inner {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+#banner {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner .btq {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#banner .txt {
+  color: #e100ff;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#banner .txt .contxt {
+  -webkit-animation-name: a;
+          animation-name: a;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  text-shadow: 5px 5px 15px 5px aqua;
+}
+/*# sourceMappingURL=competitions.css.map */
